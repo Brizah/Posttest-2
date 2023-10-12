@@ -1,5 +1,12 @@
+	#TEMA: STATION LAWRENCE
+  "Station Lawrence" adalah sebuah simulasi bisnis kedai yang mengkhususkan diri dalam penjualan minuman. 
+ 
+ 
+ 
+ 	#file coadingan
+![Screenshot 2023-10-12 213454](https://github.com/Brizah/Posttest-2/assets/126450007/133bcac7-abb4-4914-b591-67abf2bb80d4)
 
-#file minuman
+	#file minuman
 
     package project.minuman;
     import java.text.DecimalFormat;
@@ -40,34 +47,35 @@
 
         return "NamaMinuman: " + namaMinuman + ", Jenis: " + jenisMinuman + ", Harga: Rp " + formattedPrice;
     }
+   
+	}
 
-       
-}
+ 
+	#Penjelasan
+	Deklarasi Kelas Minuman:
+	Kode dimulai dengan deklarasi kelas Minuman dengan aksesibilitas default, yang berarti kelas ini 
+	dapat diakses dari dalam paket yang sama.
+	Atribut Kelas Minuman:
+	Kode berisi beberapa atribut (variabel) yang digunakan untuk merepresentasikan minuman:
+	namaMinuman: Ini adalah atribut yang menyimpan nama minuman, seperti "Kopi Hitam" atau "Teh 
+	Manis".
+	jenis: Ini adalah atribut yang menyimpan jenis minuman, misalnya, "Kopi" atau "Teh".
+	harga: Ini adalah atribut yang menyimpan harga minuman dalam bentuk bilangan pecahan.
+	Konstruktor Minuman:
+	Kelas Minuman memiliki sebuah konstruktor yang digunakan untuk membuat objek Minuman. 
+	Konstruktor ini memiliki tiga parameter, yaitu namaMinuman, jenisMinuman, dan harga, yang 
+	digunakan untuk menginisialisasi atribut-atribut objek Minuman saat objek dibuat.
+	Metode getNamaMinuman, getJenisMinuman, dan getHarga:
+	Kode ini menyediakan tiga metode publik untuk mengambil nilai dari atribut-atribut objek Minuman.
+	getNamaMinuman(): Mengembalikan nama minuman.
+	getJenisMinuman(): Mengembalikan jenis minuman.
+	getHarga(): Mengembalikan harga minuman.
+	Metode setHarga:
+	Metode setHarga() adalah metode publik yang memungkinkan Anda mengubah harga minuman. 
+	Dengan metode ini, Anda dapat memperbarui harga minuman
 
-Deklarasi Kelas Minuman:
-Kode dimulai dengan deklarasi kelas Minuman dengan aksesibilitas default, yang berarti kelas ini 
-dapat diakses dari dalam paket yang sama.
-Atribut Kelas Minuman:
-Kode berisi beberapa atribut (variabel) yang digunakan untuk merepresentasikan minuman:
-namaMinuman: Ini adalah atribut yang menyimpan nama minuman, seperti "Kopi Hitam" atau "Teh 
-Manis".
-jenis: Ini adalah atribut yang menyimpan jenis minuman, misalnya, "Kopi" atau "Teh".
-harga: Ini adalah atribut yang menyimpan harga minuman dalam bentuk bilangan pecahan.
-Konstruktor Minuman:
-Kelas Minuman memiliki sebuah konstruktor yang digunakan untuk membuat objek Minuman. 
-Konstruktor ini memiliki tiga parameter, yaitu namaMinuman, jenisMinuman, dan harga, yang 
-digunakan untuk menginisialisasi atribut-atribut objek Minuman saat objek dibuat.
-Metode getNamaMinuman, getJenisMinuman, dan getHarga:
-Kode ini menyediakan tiga metode publik untuk mengambil nilai dari atribut-atribut objek Minuman.
-getNamaMinuman(): Mengembalikan nama minuman.
-getJenisMinuman(): Mengembalikan jenis minuman.
-getHarga(): Mengembalikan harga minuman.
-Metode setHarga:
-Metode setHarga() adalah metode publik yang memungkinkan Anda mengubah harga minuman. 
-Dengan metode ini, Anda dapat memperbarui harga minuman
 
-
-#File postest 2
+	#File postest 2
                         
     package project.posstest2;
     import java.util.ArrayList;
@@ -206,12 +214,12 @@ Dengan metode ini, Anda dapat memperbarui harga minuman
     }
 }
 
-Deklarasi dan Import:
+	#Deklarasi dan Import:
 Kode pertama mencakup deklarasi paket dan impor beberapa paket Java yang dibutuhkan untuk 
 berfungsi dengan baik. Ini termasuk impor dari paket java.util dan impor dari paket 
 project.minuman.Minuman yang mengacu pada kelas Minuman dari proyek yang berbeda.
 
-Deklarasi Kelas Posstest2:
+	#Deklarasi Kelas Posstest2:
 Kode ini mendeklarasikan kelas Posstest2. Kelas ini memiliki metode main yang digunakan sebagai 
 titik masuk program.
 Inisialisasi ArrayList dan Scanner:
@@ -219,26 +227,26 @@ Pada awal metode main, ArrayList dengan nama daftarMinuman digunakan untuk menyi
 daftar minuman yang diatur oleh pengguna. Scanner juga diinisialisasi untuk mengambil input dari 
 pengguna.
 
-Opsi 1: Tambah Menu Minuman:
+	Opsi 1: Tambah Menu Minuman:
 ![Screenshot 2023-10-12 211555](https://github.com/Brizah/Posttest-2/assets/126450007/b361fc29-b5e0-4871-9b8a-a2181654d16a)
 
 Jika pengguna memilih opsi 1, program akan meminta nama minuman, jenis minuman, dan harga 
 minuman. Kemudian, sebuah objek Minuman dibuat dengan informasi ini dan ditambahkan ke 
 ArrayList daftarMinuman.
 
-Opsi 2: Lihat Daftar Minuman:
+	Opsi 2: Lihat Daftar Minuman:
 ![Screenshot 2023-10-12 211648](https://github.com/Brizah/Posttest-2/assets/126450007/2ca44fb8-7e3a-4c90-8c9c-e7153f3887e1)
 
 Opsi ini digunakan untuk melihat daftar minuman yang telah ditambahkan. Program akan 
 menampilkan daftar menu minuman yang ada di dalam daftarMinuman.
 
-Opsi 3: Cari Menu Minuman:
+	Opsi 3: Cari Menu Minuman:
 ![Screenshot 2023-10-12 211721](https://github.com/Brizah/Posttest-2/assets/126450007/bb146b01-d9ef-4645-84c9-ce2776cd841a)
 
 Pengguna dapat mencari minuman berdasarkan nama. Program akan mencocokkan nama yang 
 dimasukkan dengan nama minuman dalam daftarMinuman dan menampilkan hasilnya.
 
-Opsi 4: Update Menu Minuman:
+	Opsi 4: Update Menu Minuman:
 ![Screenshot 2023-10-12 211805](https://github.com/Brizah/Posttest-2/assets/126450007/d028f706-48a9-4d43-8356-55cdc7d76e93)
 
 Pengguna dapat mengupdate menu minuman dengan memasukkan nama menu yang ingin 
@@ -246,13 +254,13 @@ diupdate. Jika menu tersebut ditemukan, pengguna diminta untuk memasukkan inform
 seperti nama, jenis, dan harga minuman. Menu minuman yang ada akan diupdate sesuai dengan 
 input pengguna.
 
-Opsi 5: Hapus Menu Minuman:
+	Opsi 5: Hapus Menu Minuman:
 ![Screenshot 2023-10-12 211909](https://github.com/Brizah/Posttest-2/assets/126450007/72c4ac59-4872-41a0-a179-66affc488aad)
 
 Pengguna dapat menghapus menu minuman dengan memasukkan nama menu yang ingin dihapus. 
 Program akan mencari menu tersebut dalam daftarMinuman dan menghapusnya jika ditemukan.
 
-Opsi 6: Keluar:
+	Opsi 6: Keluar:
 Jika pengguna memilih opsi 6, program akan mengakhiri aplikasi setelah menampilkan pesan terima 
 kasih dan menutup Scanner
 
