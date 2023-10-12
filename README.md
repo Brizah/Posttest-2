@@ -1,10 +1,10 @@
 
 #file minuman
 
-package project.minuman;
-import java.text.DecimalFormat;
+    package project.minuman;
+    import java.text.DecimalFormat;
 
-public final class Minuman {
+    public final class Minuman {
     private final String namaMinuman;
     private final String jenisMinuman;
     private double harga;
@@ -44,26 +44,42 @@ public final class Minuman {
        
 }
 
-
+Deklarasi Kelas Minuman:
+Kode dimulai dengan deklarasi kelas Minuman dengan aksesibilitas default, yang berarti kelas ini 
+dapat diakses dari dalam paket yang sama.
+Atribut Kelas Minuman:
+Kode berisi beberapa atribut (variabel) yang digunakan untuk merepresentasikan minuman:
+namaMinuman: Ini adalah atribut yang menyimpan nama minuman, seperti "Kopi Hitam" atau "Teh 
+Manis".
+jenis: Ini adalah atribut yang menyimpan jenis minuman, misalnya, "Kopi" atau "Teh".
+harga: Ini adalah atribut yang menyimpan harga minuman dalam bentuk bilangan pecahan.
+Konstruktor Minuman:
+Kelas Minuman memiliki sebuah konstruktor yang digunakan untuk membuat objek Minuman. 
+Konstruktor ini memiliki tiga parameter, yaitu namaMinuman, jenisMinuman, dan harga, yang 
+digunakan untuk menginisialisasi atribut-atribut objek Minuman saat objek dibuat.
+Metode getNamaMinuman, getJenisMinuman, dan getHarga:
+Kode ini menyediakan tiga metode publik untuk mengambil nilai dari atribut-atribut objek Minuman.
+getNamaMinuman(): Mengembalikan nama minuman.
+getJenisMinuman(): Mengembalikan jenis minuman.
+getHarga(): Mengembalikan harga minuman.
+Metode setHarga:
+Metode setHarga() adalah metode publik yang memungkinkan Anda mengubah harga minuman. 
+Dengan metode ini, Anda dapat memperbarui harga minuman
 
 
 #File postest 2
-package project.posstest2;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.Iterator;
-import project.minuman.Minuman;
+                        
+    package project.posstest2;
+    import java.util.ArrayList;
+    import java.util.Scanner;
+    import java.util.Iterator;
+    import project.minuman.Minuman;
 
-
-
-public  final class Posstest2 {
+    public  final class Posstest2 {
     
-
     public final static void main(String[] args) {
         ArrayList<Minuman> daftarMinuman = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-
-    
         
         while (true) {
             System.out.println("Menu:");
@@ -76,7 +92,6 @@ public  final class Posstest2 {
             System.out.print("Pilihan Anda: ");
 
             String pilihan = scanner.nextLine();
-
 
             switch (pilihan) {
                 case "1":
@@ -191,3 +206,44 @@ public  final class Posstest2 {
     }
 }
 
+Deklarasi dan Import:
+Kode pertama mencakup deklarasi paket dan impor beberapa paket Java yang dibutuhkan untuk 
+berfungsi dengan baik. Ini termasuk impor dari paket java.util dan impor dari paket 
+project.minuman.Minuman yang mengacu pada kelas Minuman dari proyek yang berbeda.
+
+Deklarasi Kelas Posstest2:
+Kode ini mendeklarasikan kelas Posstest2. Kelas ini memiliki metode main yang digunakan sebagai 
+titik masuk program.
+Inisialisasi ArrayList dan Scanner:
+Pada awal metode main, ArrayList dengan nama daftarMinuman digunakan untuk menyimpan 
+daftar minuman yang diatur oleh pengguna. Scanner juga diinisialisasi untuk mengambil input dari 
+pengguna.
+
+Opsi 1: Tambah Menu Minuman:
+Jika pengguna memilih opsi 1, program akan meminta nama minuman, jenis minuman, dan harga 
+minuman. Kemudian, sebuah objek Minuman dibuat dengan informasi ini dan ditambahkan ke 
+ArrayList daftarMinuman.
+
+Opsi 2: Lihat Daftar Minuman:
+Opsi ini digunakan untuk melihat daftar minuman yang telah ditambahkan. Program akan 
+menampilkan daftar menu minuman yang ada di dalam daftarMinuman.
+
+Opsi 3: Cari Menu Minuman:
+Pengguna dapat mencari minuman berdasarkan nama. Program akan mencocokkan nama yang 
+dimasukkan dengan nama minuman dalam daftarMinuman dan menampilkan hasilnya.
+
+Opsi 4: Update Menu Minuman:
+Pengguna dapat mengupdate menu minuman dengan memasukkan nama menu yang ingin 
+diupdate. Jika menu tersebut ditemukan, pengguna diminta untuk memasukkan informasi baru 
+seperti nama, jenis, dan harga minuman. Menu minuman yang ada akan diupdate sesuai dengan 
+input pengguna.
+
+Opsi 5: Hapus Menu Minuman:
+Pengguna dapat menghapus menu minuman dengan memasukkan nama menu yang ingin dihapus. 
+Program akan mencari menu tersebut dalam daftarMinuman dan menghapusnya jika ditemukan.
+
+Opsi 6: Keluar:
+Jika pengguna memilih opsi 6, program akan mengakhiri aplikasi setelah menampilkan pesan terima 
+kasih dan menutup Scanner
+
+#Output
