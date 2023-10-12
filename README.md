@@ -246,4 +246,5 @@ Opsi 6: Keluar:
 Jika pengguna memilih opsi 6, program akan mengakhiri aplikasi setelah menampilkan pesan terima 
 kasih dan menutup Scanner
 
-#Output
+#Dokumentasi
+
