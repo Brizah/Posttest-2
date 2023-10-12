@@ -220,25 +220,35 @@ daftar minuman yang diatur oleh pengguna. Scanner juga diinisialisasi untuk meng
 pengguna.
 
 Opsi 1: Tambah Menu Minuman:
+![Screenshot 2023-10-12 211555](https://github.com/Brizah/Posttest-2/assets/126450007/b361fc29-b5e0-4871-9b8a-a2181654d16a)
+
 Jika pengguna memilih opsi 1, program akan meminta nama minuman, jenis minuman, dan harga 
 minuman. Kemudian, sebuah objek Minuman dibuat dengan informasi ini dan ditambahkan ke 
 ArrayList daftarMinuman.
 
 Opsi 2: Lihat Daftar Minuman:
+![Screenshot 2023-10-12 211648](https://github.com/Brizah/Posttest-2/assets/126450007/2ca44fb8-7e3a-4c90-8c9c-e7153f3887e1)
+
 Opsi ini digunakan untuk melihat daftar minuman yang telah ditambahkan. Program akan 
 menampilkan daftar menu minuman yang ada di dalam daftarMinuman.
 
 Opsi 3: Cari Menu Minuman:
+![Screenshot 2023-10-12 211721](https://github.com/Brizah/Posttest-2/assets/126450007/bb146b01-d9ef-4645-84c9-ce2776cd841a)
+
 Pengguna dapat mencari minuman berdasarkan nama. Program akan mencocokkan nama yang 
 dimasukkan dengan nama minuman dalam daftarMinuman dan menampilkan hasilnya.
 
 Opsi 4: Update Menu Minuman:
+![Screenshot 2023-10-12 211805](https://github.com/Brizah/Posttest-2/assets/126450007/d028f706-48a9-4d43-8356-55cdc7d76e93)
+
 Pengguna dapat mengupdate menu minuman dengan memasukkan nama menu yang ingin 
 diupdate. Jika menu tersebut ditemukan, pengguna diminta untuk memasukkan informasi baru 
 seperti nama, jenis, dan harga minuman. Menu minuman yang ada akan diupdate sesuai dengan 
 input pengguna.
 
 Opsi 5: Hapus Menu Minuman:
+![Screenshot 2023-10-12 211909](https://github.com/Brizah/Posttest-2/assets/126450007/72c4ac59-4872-41a0-a179-66affc488aad)
+
 Pengguna dapat menghapus menu minuman dengan memasukkan nama menu yang ingin dihapus. 
 Program akan mencari menu tersebut dalam daftarMinuman dan menghapusnya jika ditemukan.
 
@@ -246,5 +256,5 @@ Opsi 6: Keluar:
 Jika pengguna memilih opsi 6, program akan mengakhiri aplikasi setelah menampilkan pesan terima 
 kasih dan menutup Scanner
 
-#Dokumentasi
+
 
